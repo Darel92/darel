@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Darel Hosting</title>
+    <style>
+        /* Reset Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #1e1e2f;
+            color: #fff;
+        }
+
+        /* Header */
+        header {
+            background-color: #4caf50;
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            text-align: center;
+        }
+        header img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            margin-bottom: 15px;
+        }
+        header h1 {
+            font-size: 2.5rem;
+            font-weight: bold;
+        }
+
+        /* Navigation */
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding: 15px 0;
+            background-color: #333;
+            position: sticky;
+            top: 0;
+            z-index: 10;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.2rem;
+            padding: 10px 20px;
+            border-radius: 5px;
+            background-color: #444;
+            transition: background-color 0.3s ease;
+        }
+        nav a:hover {
+            background-color: #4caf50;
+        }
+
+        /* Section */
+        section {
+            padding: 30px;
+            max-width: 1200px;
+            margin: auto;
+        }
+        section h2 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+            text-align: center;
+            color: #4caf50;
+        }
+        .card {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+        }
+        .card-item {
+            background-color: #333;
+            border-radius: 10px;
+            padding: 20px;
+            text-align: center;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .card-item:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+        }
+        .card-item h3 {
+            font-size: 1.5rem;
+            margin-bottom: 15px;
+        }
+        .card-item p {
+            font-size: 1rem;
+            margin-bottom: 20px;
+        }
+        .card-item a {
+            display: inline-block;
+            text-decoration: none;
+            color: #fff;
+            background-color: #4caf50;
+            padding: 10px 15px;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+        .card-item a:hover {
+            background-color: #3e8e41;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #4caf50;
+            margin-top: 40px;
+        }
+        footer p {
+            font-size: 1rem;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <img src="logo-darel-hosting.png" alt="Darel Hosting Logo">
+    <h1>Darel Hosting</h1>
+</header>
+
+<nav>
+    <a href="#bot-wa">Bot WA</a>
+    <a href="#minecraft">Minecraft</a>
+    <a href="#samp">SAMP</a>
+</nav>
+
+<section id="bot-wa">
+    <h2>Panel Bot WA</h2>
+    <div class="card">
+        <div class="card-item">
+            <h3>Admin Panel Bot WA</h3>
+            <p>Harga: Rp 20.000</p>
+            <a href="https://wa.me/62882007832788?text=Halo,%20saya%20ingin%20membeli%20Admin%20Panel%20Bot%20WA">Pesan Sekarang</a>
+        </div>
+        <div class="card-item">
+            <h3>Reseller Panel Bot WA</h3>
+            <p>Harga: Rp 10.000</p>
+            <a href="https://wa.me/62882007832788?text=Halo,%20saya%20ingin%20membeli%20Reseller%20Panel%20Bot%20WA">Pesan Sekarang</a>
+        </div>
+        <div class="card-item">
+            <h3>RAM 1GB</h3>
+            <p>Harga: Rp 1.000</p>
+            <a href="https://wa.me/62882007832788?text=Halo,%20saya%20ingin%20membeli%20RAM%201GB%20untuk%20Bot%20WA">Pesan Sekarang</a>
+        </div>
+        <div class="card-item">
+            <h3>RAM 2GB</h3>
+            <p>Harga: Rp 2.000</p>
+            <a href="https://wa.me/62882007832788?text=Halo,%20saya%20ingin%20membeli%20RAM%202GB%20untuk%20Bot%20WA">Pesan Sekarang</a>
+        </div>
+        <div class="card-item">
+            <h3>RAM 3GB</h3>
+            <p>Harga: Rp 3.000</p>
+            <a href="https://wa.me/62882007832788?text=Halo,%20saya%20ingin%20membeli%20RAM%203GB%20untuk%20Bot%20WA">Pesan Sekarang</a>
+        </div>
+        <div class="card-item">
+            <h3>RAM 4GB</h3>
+            <p>Harga: Rp 4.000</p>
+            <a href="https://wa.me/62882007832788?text=Halo,%20saya%20ingin%20membeli%20RAM%204GB%20untuk%20Bot%20WA">Pesan Sekarang</a>
+        </div>
+        <div class="card-item">
+            <h3>RAM 5GB</h3>
+            <p>Harga: Rp 5.000</p>
+            <a href="https://wa.me/62882007832788?text=Halo,%20saya%20ingin%20membeli%20RAM%205GB%20untuk%20Bot%20WA">Pesan Sekarang</a>
+        </div>
+        <div class="card-item">
+            <h3>RAM 6GB</h3>
+            <p>Harga: Rp 6.000</p>
+            <a href="https://wa.me/62882007832788?text=Halo,%20saya%20ingin%20membeli%20RAM%206GB%20untuk%20Bot%20WA">Pesan Sekarang</a>
+        </div>
+        <div class="card-item">
+            <h3>RAM 7GB</h3>
+            <p>Harga: Rp 7.000</p>
+            <a href="https://wa.me/62882007832788?text=Halo,%20saya%20ingin%20membeli%20RAM%207GB%20untuk%20Bot%20WA">Pesan Sekarang</a>
+        </div>
+        <div class="card-item">
+            <h3>RAM UNLIMITED</h3>
+            <p>Harga: Rp 8.000</p>
+            <a href="https://wa.me/62882007832788?text=Halo,%20saya%20ingin%20membeli%20RAM%20UNLIMITED%20untuk%20Bot%20WA">Pesan Sekarang</a>
+        </div>
+    </div>
+</section>
+
+<section id="minecraft">
+    <h2>Hosting Minecraft</h2>
+    <div class="card">
+        <div class="card-item">
+            <h3>1GB</h3>
+            <p>Harga: Rp 3.000<br>CPU: 150%</p>
+            <a href="https://wa.me/62882007832788?text=Halo,%20saya%20ingin%20membeli%20Hosting%20Minecraft%201GB">Pesan Sekarang</a>
+        </div>
+        <div class="card-item">
+            <h3>2GB</h3>
+            <p>Harga: Rp 6.000<br>CPU: 250%</p>
+            <a href="https://wa.me/62882007832788?text=Halo,%20saya%20ingin%20membeli%20Hosting%20Minecraft%202GB">Pesan Sekarang</a>
+        </div>
+        <div class="card-item">
+            <h3>5GB</h3>
+            <p>Harga: Rp 15.000<br>CPU: 400%</p>
+            <a href="https://wa.me/62882007832788?text=Halo,%20saya%20ingin%20membeli%20Hosting%20Minecraft%205GB">Pesan Sekarang</a>
+        </div>
+    </div>
+</section>
+
+<section id="samp">
+    <h2>Hosting SAMP</h2>
+    <div class="card">
+        <div class="card-item">
+            <h3>20 Slot</h3>
+            <p>Harga: Rp 5.000<br>RAM & CPU: Unlimited</p>
+            <a href="https://wa.me/62882007832788?text=Halo,%20saya%20ingin%20membeli%2020%20Slot%20SAMP">Pesan Sekarang</a>
+        </div>
+        <div class="card-item">
+            <h3>50 Slot</h3>
+            <p>Harga: Rp 10.000<br>RAM & CPU: Unlimited</p>
+            <a href="https://wa.me/62882007832788?text=Halo,%20saya%20ingin%20membeli%2050%20Slot%20SAMP">Pesan Sekarang</a>
+        </div>
+        <div class="card-item">
+            <h3>150 Slot</h3>
+            <p>Harga: Rp 25.000<br>RAM & CPU: Unlimited</p>
+            <a href="https://wa.me/62882007832788?text=Halo,%20saya%20ingin%20membeli%20150%20Slot%20SAMP">Pesan Sekarang</a>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2024 Darel Hosting - Semua Hak Dilindungi.</p>
+</footer>
+
+</body>
+</html>
